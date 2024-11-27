@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgba(101, 101, 245,0.5);;;
+    width: 100%;
+    position: fixed;
+    padding: 10px 15px;
+    z-index: 100;
+    overflow: auto;
+}
+.homeicon{
+    color: white;
+    margin: 0 30px ;
+    font-weight: 800;
+
+}
+.search-btn{
+    width: 210px;
+    height: 32px;
+    background-color: white;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -7px;
+    border-style: none;
+    border-radius: 20px;
+}
+.seh{
+color: rgb(0, 0, 0);
+margin-right: 2px;
+position: absolute;
+}
+.header-links{
+    float: right;
+    list-style: none;
+    padding-right: 100px;
+}
+.header-links li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 800;
+   color: white;
+}
+.container{
+    position: relative;
+}
+.div1{
+    background-image: url(../perfume-with-floral-aroma-burst-generative-ai_74760-4858.jpg);
+    width:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.425);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-title h2{
+    color: white;
+    font-size: 55px;
+    width: 800px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.main-title p{
+    color: #b3b1b1;
+    font-size: 18px;
+    width: 800px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    text-transform: capitalize;
+}
+.le-mo{
+    transform: translateX(230px);
+    margin: 20px 30px;
+    border: none;
+    width: 145px;
+    border-radius: 19px;
+    height: 40px;
+    background-color: #eee;
+    font-size: 18px;
+    font-weight: 700;
+}
+.le-mo:hover , .ge-st:hover{
+    opacity: .6;
+}
+.ge-st{
+    transform: translateX(180px);
+    margin: 20px 30px;
+    border: none;
+    width: 145px;
+    border-radius: 19px;
+    height: 40px;
+    background-color: rgb(77, 27, 192);
+    font-size: 18px;
+    font-weight: 700;
+}
+.welc {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 10px auto;
+}
+.welc-line{
+    width: 160px;
+    margin: auto;
+    height: 6px;
+    background-color: blue;
+    /* color: yellow; */
+    border-radius: 30px;
+}
+.boxes{
+    width: 100%;
+    background-color: #eee;
+    height: 70vh;
+    margin: 50px auto;
+    overflow: auto;
+}
+.boxes div {
+    width: calc(80%/3);
+    position: relative;
+    margin-left: 5%;
+    margin-top: 160px;
+    height: 230px;
+    float: left;
+    background-color: rgb(255, 253, 250);
+    border: 1px solid rgba(23, 53, 184, 0.7) ;
+    border-radius: 25px;
+    position: relative;
+}
+
+.iconsec2{
+        color: #3f51b5;
+        font-weight: 900;
+        font-size: 30px;
+        margin: 20px 50%;
+    }
+.sec2h2{
+    font-weight: 900;
+    font-size: 30px;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sec2p2{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    word-spacing: 7px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #815d5d;
+}
+.sec2link{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color:rgb(77, 77, 219) ;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.boxes div:hover .sec2link{
+    color:  rgb(25, 0, 255) ;
+}
+.boxes div::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 3);
+    opacity: 0;
+  
+}
+ .boxes div:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.boxes div:hover .sec2h2 {
+    color: rgb(0, 0, 0);
+}
+.sec2p2{
+    color: rgb(109, 108, 108);
+}
+.boxes div:hover .sec2p2{
+    color: black;
+}
+.products{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+    background-color: #ccc;
+}
+.products .pdt1{
+    float: left;
+    margin-left: 2%;
+    width: calc(94%/3);
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.father{
+    position: relative;
+    position: relative;
+    width: 350px;
+    height: 225px;
+    margin-bottom: 30px;
+}
+.pdt1-layer{
+    width: 100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .1s;
+    color: #fff;
+    text-align: center; 
+    visibility: hidden; 
+}
+.pdt1 .father:hover .pdt1-layer{
+     visibility: visible;
+}
+.pdt1-icon a i{
+    background-color: #eee;
+    color: #bb0524;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    padding-top: 8px;
+    border: 1px solid #a72e43;
+    border-radius: 50%;
+}
+.pdt1-title{
+    color: white;
+    font-size: 30px;
+    margin: 5px auto;
+} 
+.pdt1-layer p {
+    color: burlywood;
+}
+.offers{
+    width: 100%;
+    height: 100vh;
+    background-color: #fdfdfd;
+    overflow: auto;
+
+}
+.ofr1{
+    float: left;
+    margin-left: 5%;
+    width: calc(80%/3);
+    height: 250px;
+    background-color: #dee1dc;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    border-radius: 20px;
+    border: 1px solid #4141e9;
+    position: relative;
+}
+.ofr1-tile{
+    color:#000;
+    padding: 14px;
+    font-size: 24px;
+
+}
+.ofr-pragraph{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: darkcyan;
+}
+.ofr-icon{
+    font-size: 30px;
+    margin: 10px;
+    color: blue;
+}
+.ofr1::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    background-color: rgb(160 160 203 / 40%);
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    visibility: hidden;
+}
+.ofr1:hover::after{
+    visibility: visible;
+    width:100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    transition: 1s;
+}
+.def{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: auto;
+    background-color: #a9aecc;
+
+}
+.def-title{
+    
+    font-weight: 900;
+    font-size: 50px;
+    margin: 10px auto;
+    padding-left: 25px;
+    padding-top: 25px;
+
+}
+.def-line{
+    width: 160px;
+    margin: 11px 30px;
+    height: 6px;
+    padding: 2px;
+    background-color: blue;
+    border-radius: 30px;
+}
+.def-p{
+    font-variant: small-caps;
+    font-variant: petite-caps;
+    font-weight: 800;
+    font-size: 26px;
+    word-break: break-word;
+    max-width: 60%;
+    padding: 30px;
+}
+.def .def-list{
+    padding-left: 50px;
+    list-style: lower-roman;
+    font-size: 20px;
+    font-weight: bold;
+    color: teal;
+    line-height: 42px;
+}
+ .def-img{ 
+    float: left;
+    top: 80px;
+    right: 85px;
+    position: absolute;
+    width: 400px;
+    height: 480px;
+}
+.background{
+    width: 100%;
+    height: 55vh;
+    background-color: aqua;
+    position: relative;
+    background-image: url(../perfume-with-floral-aroma-burst-generative-ai_74760-5026.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    background-attachment: fixed;
+}
+.back-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.559);
+    width: 100%;
+    height: 55vh;
+}
+
+.info1 ,.info2
+,.info3 , .info4{
+    background-color: #fbfbfb00;
+    margin-left: 2%;
+    width: calc(90%/4);
+    float: left;
+    height: 225px;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    color: #5151ef;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    
+}
+.info1  h3 ,.info2 h3
+,.info3 h3 , .info4 h3{
+    color: #eee;
+    font-size: 28px;
+    padding-top: 15px;
+}
+.prices{
+    background-color: rgb(255 255 255);
+    width: 92%;
+    height: 90vh;
+    overflow: auto;
+    margin: auto;
+
+}
+.prc1{
+    background-color:black;
+    margin-left: 3%;
+    width: calc(88%/3);
+    height: 380px;
+    text-align: center;
+    float: left;
+    margin-top:65px ;
+    border-radius: 14px;
+    box-shadow: 2px 9px 4px 6px #3f51b8, -2px -2px 3px 13px #e91e63;
+}
+.prc-title{
+    text-align: center;
+    margin-top: 28px;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+}
+.prc-crcle{
+    width: 115px;
+    height: 115px;
+    border: 2px solid #673ab7;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+.prc-crcle h3{
+    font-size: 35px;
+    padding-top: 15px;
+    color: white;
+}
+.prc1 ul{
+    list-style: none;
+    font-size: 21px;
+    font-style: oblique;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+}
+.prc1 button{
+    border: none;
+    margin-top: 20px;
+    width: 154px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: 900;
+    border: 2px solid #9c27b0;
+}
+.team{
+    background-image: url(../still-life-aromatic-reed-freshener_47840-479.avif);
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.team-overlay{
+    width: 100%;
+    height: 55vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.mmbr1{
+    background-color: rgba(255, 235, 205, 0);
+    margin-left: 10%;
+    width: calc(70%/2);
+    position: relative;
+    height: 220px;
+    float: left;
+    margin-top: 100px;
+}
+.mmbr1-img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.mmbr-name{
+    font-size: 26px;
+    position: absolute;
+    top: 33px;
+    left: 115px;
+    color: #ffc107;
+}
+.mmbr-job{
+    font-size: 22px;
+    position: absolute;
+    top: 69px;
+    left: 115px;
+    color: #ff9800;
+}
+.mmbr-info{
+    font-size: 17px;
+    font-weight: 700;
+    color: #fbfbfb;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.team-mmbrs{
+    width: 100%;
+    height: 80vh ;
+    background-color: #ffe7e7;
+}
+.tm-container{
+    display: flex;
+}
+.tm-mmbr1{
+    height: 320px;
+    width: calc(72%/3);
+    margin-left: 7%;
+    background-color: rgb(223, 221, 221);
+    border-radius: 10px;
+    margin-top: 72px;  
+    text-align: center;
+    padding: 18px 1px;
+    position: relative;
+    border-radius: 10px;
+}
+.tm-img img{
+    width: 100%;
+}
+.tm-img{
+    width: 75%;
+    position: relative;
+    top: 8px;
+    left: 42px;
+    margin-bottom: 22px;
+}
+.tm-icon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+.tm-icon a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    color: #fff;
+    background-color: rgb(101, 101, 236);
+    margin-left:auto;
+}
+.tm-mmbr1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(179, 179, 245);
+    transition: .5s;
+    opacity: .5;
+    border-radius: 10px;
+}
+.tm-mmbr1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.tm-mmbr1:hover .tm-icon{
+    visibility: visible;
+}
+.team-info-title{
+    font-size: 30px;
+    color: black;
+}
+.tm-mmbr1:hover .team-info-title{
+    color: white;
+}
+.team-info-paragraph{
+    font-size: 20px;
+}
+.tm-mmbr1:hover .team-info-paragraph{
+   color: blue;
+}
+.news{
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e3e1;
+
+}
+.new-container{
+    display: flex;
+}
+.new1{
+    height: 500px;
+    margin-left: 3%;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 40px;
+    width: calc(88%/3);
+    background-color: cornsilk;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 4px;
+    line-height: 25px;
+    font-family: cursive;
+}
+.new-img img{
+    width: 325px;
+    height: 240px;
+    padding: 4px;
+    margin-left: 22px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.new-info{
+    color: black;
+    font-size: 16px;
+}
+.new-paragraph{
+    padding-top: 20px;
+    color: darkslategray;
+}
+.new-job{
+    padding-top: 25px;
+}
+.new1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(179, 179, 245);
+    transition: .5s;
+    opacity: .5;
+    border-radius: 10px;
+
+}
+.new1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.new1:hover .new-paragraph{
+    color: blue;
+}
+.new-img a {
+    text-decoration:none ;
+}
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 52vh;
+    background-color: #d1d3f0;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+footer img {
+    width: 270px;
+    height: 230px;
+    margin-top: 58px;
+    border-radius: 15px;
+}
+.footer-icon i{
+    width: 55px;
+    height: 55px;
+    margin-top: 3px;
+    margin-left: 5px;
+    background-color: #03a9f4;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 28px;
+    color: white;
+}
+.footer-icon i:hover{
+    background-color: blue;
+}
+.fotr-paragraph{
+    text-transform: capitalize;
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 8px;
+}
